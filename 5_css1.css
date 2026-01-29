@@ -36,17 +36,13 @@ p {
 }
 
 #paragraph2 {
-    padding-top: 20px;
-    padding-bottom: 20px;
-    padding-left: 20px;
-    padding-right: 20px;
-    border: 2px solid green;
-    margin-top: 25px;
-    margin-bottom: 25px;
-    margin-left: 40px;
-    margin-right: 40px;
-    line-height: 1.6;
+    border-style: solid;
+    border-width: .2em;
+    border-color: green;
+    margin: 20px;
     background-color: white;
+    padding: 1.2em;
+    width: 50em;
 }
 
 .blue {
@@ -87,30 +83,25 @@ ol li a {
     color: blue;
 }
 
+table, th, td {
+    border-collapse: collapse;
+    border: .1em solid;
+    padding: .4em;
+}
+
 table {
     margin-top: 20px;
     margin-bottom: 20px;
     background-color: white;
-    border: 1px solid gray;
 }
 
 table th {
     background-color: lightgray;
     color: black;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-left: 10px;
-    padding-right: 10px;
-    border: 1px solid gray;
     font-weight: bold;
 }
 
 table td {
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-left: 10px;
-    padding-right: 10px;
-    border: 1px solid gray;
     color: black;
     background-color: white;
 }
