@@ -43,10 +43,10 @@ p {
 
 /* Paragraph 2 styling (id="paragraph2") */
 #paragraph2 {
-    padding: 10px 15px;
-    border: 2px solid #4caf50;
-    margin: 15px 40px;
-    line-height: 1.5;
+    padding: 30px 15px;
+    border: 2px solid green;
+    margin: 30px 60px;
+    line-height: 1.6;
     background-color: #fff;
 }
 
