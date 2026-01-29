@@ -75,7 +75,8 @@ section p a {
 ol {
     margin-top: 20px;
     margin-bottom: 20px;
-    padding-left: 40px;
+    padding-left: 20px;
+    list-style-type: decimal-leading-zero;
 }
 
 ol li {
