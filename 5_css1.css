@@ -17,14 +17,14 @@ h1 {
 
 h2 {
     font-size: 1.5em;
-    color: gray;
+    color: black;
     margin-top: 20px;
     margin-bottom: 15px;
 }
 
 h3 {
     font-size: 1.3em;
-    color: gray;
+    color: black;
     margin-top: 20px;
     margin-bottom: 15px;
 }
@@ -32,14 +32,14 @@ h3 {
 p {
     font-size: 0.9em;
     line-height: 1.5;
-    color: gray;
+    color: black;
     margin-bottom: 12px;
 }
 
 #paragraph2 {
-    padding: 30px 15px;
+    padding: 20px 20px;
     border: 2px solid green;
-    margin: 60px 30px;
+    margin: 20px 20px;
     line-height: 1.6;
     background-color: white;
 }
@@ -47,8 +47,8 @@ p {
 .blue {
     color: white;
     background-color: darkblue;
-    padding: 15px;
-    margin: 20px 5px;
+    padding: 20px;
+    margin: 20px 20px;
     line-height: 1.5;
 }
 
@@ -68,7 +68,7 @@ ol {
 
 ol li {
     margin-bottom: 8px;
-    color: gray;
+    color: black;
 }
 
 ol li a {
@@ -93,13 +93,13 @@ table th {
 table td {
     padding: 10px;
     border: 1px solid gray;
-    color: gray;
+    color: black;
     background-color: white;
 }
 
 em {
     font-style: italic;
-    color: gray;
+    color: black;
 }
 
 article {
