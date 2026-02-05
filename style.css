@@ -1,0 +1,150 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+}
+
+#jumpMenu {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 15%;
+    height: 100vh;
+    background-color: gold;
+    padding: 20px;
+    overflow-y: auto;
+    border-right: 2px solid black;
+}
+
+#jumpMenu h2 {
+    margin-bottom: 20px;
+    font-size: 1.5em;
+    text-align: center;
+}
+
+#jumpMenu a {
+    display: block;
+    margin: 15px 0;
+    color: blue;
+    text-decoration: underline;
+}
+
+main {
+    margin-left: 15%;
+    width: 85%;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 15%;
+    width: 85%;
+    background-color: red;
+    padding: 20px;
+    z-index: 100;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header p {
+    font-size: 2em;
+    color: black;
+    margin-bottom: 10px;
+}
+
+header nav {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+header button {
+    background-color: blue;
+    color: white;
+    border: 2px solid black;
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+}
+
+#container {
+    margin-top: 120px;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 2em;
+    margin: 20px 0;
+    margin-top: 120px;
+}
+
+article {
+    width: 300px;
+    border: 1px solid black;
+    padding: 15px;
+    background-color: #f0f0f0;
+}
+
+article h2 {
+    font-size: 1.3em;
+    margin-bottom: 10px;
+}
+
+article p {
+    line-height: 1.6;
+    font-size: 0.9em;
+}
+
+article a {
+    color: blue;
+    text-decoration: underline;
+}
+
+#thanks {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: lightblue;
+    padding: 20px;
+    border: 2px solid black;
+    font-size: 1.2em;
+    font-weight: bold;
+    z-index: 101;
+}
+
+footer {
+    background-color: #f0f0f0;
+    padding: 30px;
+    margin-top: 50px;
+    border-top: 2px solid black;
+}
+
+footer p {
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+address {
+    font-style: normal;
+    line-height: 1.8;
+}
+
+address span {
+    display: inline;
+    margin-right: 10px;
+}
