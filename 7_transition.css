@@ -139,12 +139,7 @@ article p:first-child::first-letter {
 }
 
 article p a::after {
-    content: " \2197\FE0E";
-    margin-left: 3px;
-    font-size: 0.8em;
-    border: 1px solid blue;
-    padding: 2px 3px;
-    display: inline-block;
+    content: url(arrow.png);
 }
 
 article a {
