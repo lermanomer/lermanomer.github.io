@@ -43,15 +43,24 @@ nav#menuItems button:hover {
 
 #jumpMenu {
     display: none;
-    position: absolute;
-    left: 0;
-    top: 100%;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
     background-color: gold;
     width: 200px;
-    list-style: none;
     z-index: 1000;
-    margin-top: 0;
+}
+
+#jumpMenu li {
     padding: 0;
+}
+
+#jumpMenu a {
+    color: blue;
+    padding: 10px;
+    display: block;
+    font-size: 1em;
+    text-decoration: none;
 }
 
 #recentArticles:hover ~ #jumpMenu {
@@ -62,22 +71,9 @@ nav#menuItems button:hover {
     display: block;
 }
 
-#jumpMenu li {
-    padding: 10px;
-    border-bottom: 1px solid #ccc;
-}
-
-#jumpMenu li a {
-    color: blue;
-    text-decoration: none;
-    transition: color 0.3s, background-color 0.3s;
-}
-
-#jumpMenu li a:hover {
+#jumpMenu a:hover {
     color: white;
     background-color: blue;
-    display: block;
-    padding: 5px;
 }
 
 main {
@@ -143,7 +139,8 @@ article p:first-child::first-letter {
 }
 
 article a[href*="google.com"]::after {
-    content: " \1F517";
+    content: url(data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 12 12'%3E%3Cpath fill='blue' d='M1 1h8v3l2-3.5L9 1V1H1z'/%3E%3C/svg%3E);
+    margin-left: 5px;
 }
 
 article a {
