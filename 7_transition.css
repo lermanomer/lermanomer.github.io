@@ -141,8 +141,7 @@ article p:first-child::first-letter {
 }
 
 article a[href*="google.com"]::after {
-    content: " \2192";
-    margin-left: 5px;
+    content: " \1F517";
 }
 
 article a {
@@ -155,12 +154,14 @@ article a:visited {
 }
 
 #thanks {
-    text-align: center;
-    padding: 20px;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
     background-color: lightblue;
     border: 2px solid black;
-    margin-top: 30px;
+    padding: 20px;
     font-size: 1.2em;
+    z-index: 101;
 }
 
 #thanks a {
