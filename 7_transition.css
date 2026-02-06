@@ -50,9 +50,11 @@ nav#menuItems button:hover {
     width: 200px;
     list-style: none;
     z-index: 1000;
+    margin-top: 0;
+    padding: 0;
 }
 
-#recentArticles:hover + #jumpMenu {
+#recentArticles:hover ~ #jumpMenu {
     display: block;
 }
 
