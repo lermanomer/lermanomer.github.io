@@ -34,7 +34,8 @@ nav#menuItems button {
 }
 
 nav#menuItems button:hover {
-    background-color: darkblue;
+    background-color: gold;
+    color: black;
 }
 
 #recentArticles {
