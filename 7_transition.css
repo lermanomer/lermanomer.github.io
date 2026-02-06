@@ -124,7 +124,7 @@ article:hover {
 
 article h2 {
     font-size: 1.5em;
-    margin-bottom: 15px;
+    margin-bottom: 25px;
     color: inherit;
 }
 
@@ -141,7 +141,8 @@ article p:first-child::first-letter {
 }
 
 article a[href*="google.com"]::after {
-    content: " →";
+    content: " \2192";
+    margin-left: 5px;
 }
 
 article a {
