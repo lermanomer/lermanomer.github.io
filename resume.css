@@ -98,9 +98,7 @@ br {
 /* Desktop Layout (1920px and up) */
 @media screen and (min-width: 1920px) {
     body {
-        padding: 50px;
-        max-width: 1200px;
-        margin: 0 auto;
+        padding: 50px 100px;
         font-size: 1.1em;
     }
 
