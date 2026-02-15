@@ -36,7 +36,9 @@ function addMultiplesToArray() {
     let multiplesArray = [];
     if(counter >= 5) {
         for(let i = counter; i >= 5; i = i - 5) {
-            multiplesArray.push(i);
+            if(i % 5 == 0) {
+                multiplesArray.push(i);
+            }
         }
     }
     console.log(multiplesArray);
