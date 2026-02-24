@@ -22,13 +22,13 @@ body {
 h1 {
     text-align: center;
     margin-bottom: 30px;
-    color: #333;
+    color: black;
 }
 
 h2 {
     margin-top: 20px;
     margin-bottom: 15px;
-    color: #333;
+    color: black;
 }
 
 .search-section {
@@ -46,15 +46,15 @@ h2 {
 button {
     padding: 10px 20px;
     font-size: 16px;
-    background-color: #4CAF50;
-    color: white;
+    background-color: lightgreen;
+    color: black;
     border: none;
     border-radius: 5px;
     cursor: pointer;
 }
 
 button:hover {
-    background-color: #45a049;
+    background-color: green;
 }
 
 .pokemon-display {
@@ -89,12 +89,12 @@ select {
 
 .team-section {
     margin-top: 30px;
-    border-top: 2px solid #ccc;
+    border-top: 2px solid lightgray;
     padding-top: 20px;
 }
 
 .team-pokemon {
-    background-color: #f0f0f0;
+    background-color: lightyellow;
     padding: 15px;
     margin: 10px 0;
     border-radius: 5px;
