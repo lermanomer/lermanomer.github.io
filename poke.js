@@ -15,17 +15,19 @@ function doFetch()
         processJSON(data);
     }
     else {
-        fetch("https://pokeapi.co/api/v2/pokemon/" + pokemonName)
+        fetch("https://pokeapi.co/api/v2/pokemon/" + pokemonName.toLowerCase())
         .then(response => response.json())
-        .then(myJSONDocument => {
-            localStorage.setItem(cacheKey, JSON.stringify(myJSONDocument));
-            processJSON(myJSONDocument);
-        });
+        .then(myJSONDocument => processJSON(myJSONDocument));
     }
 }
 
 function processJSON(json)
 {
+    let pokemonName = document.getElementById("pokemonInput").value;
+    let cacheKey = "pokemon_" + pokemonName.toLowerCase();
+    
+    localStorage.setItem(cacheKey, JSON.stringify(json));
+    
     let id = json.id;
     let name = json.name;
     let image = json.sprites.front_default;
